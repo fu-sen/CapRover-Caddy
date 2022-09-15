@@ -16,5 +16,5 @@ Provides a simple static site display. CapRover uses nginx, but I'm used to Cadd
 
 ## Use Caddyfile
 
-If you add a `Caddyfile`, put it in the same place as this `README.md`.
+If you add a `Caddyfile`, put it in the same place as this `README.md`.\
 Change `captain-definition.caddy` to `captain-definition`.
