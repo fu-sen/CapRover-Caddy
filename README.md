@@ -9,21 +9,16 @@ Provides a simple static site display. CapRover uses nginx, but I'm used to Cadd
 
 ## Usage
 
-1. Clone this repository.
-2. Edit `index.html` in `public/`. Add other files if needed.
-3. Run `caprover deploy`. Please follow the display.
+1. Open your CapRover website and create an App with Create A New App.
+2. Clone this repository.
+3. Edit `index.html` in `public/`. Add other files if needed.
+4. Run `caprover deploy`. Please follow the display.
 
 ## Use Caddyfile
 
 If you add a `Caddyfile`, put it in the same place as this `README.md`.
 
-Add a `#` at the beginning of this line to make it a comment, or remove this line.
-
-```
-RUN sed -i 's/:80/:{$PORT}/' /etc/caddy/Caddyfile
-```
-
-Remove the `#` at the beginning of this line instead.
+Remove the `#` at the beginning of this line.
 
 ```
 #COPY ./Caddyfile /etc/caddy/Caddyfile
