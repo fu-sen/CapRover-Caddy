@@ -17,9 +17,4 @@ Provides a simple static site display. CapRover uses nginx, but I'm used to Cadd
 ## Use Caddyfile
 
 If you add a `Caddyfile`, put it in the same place as this `README.md`.
-
-Remove the `#` at the beginning of this line.
-
-```
-#COPY ./Caddyfile /etc/caddy/Caddyfile
-```
+Change `captain-definition.caddy` to `captain-definition`.
