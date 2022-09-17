@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "dockerfileLines": [
                         "FROM caddy:alpine",
-                        "COPY ./public/ /usr/share/caddy/",
+                        "COPY ./public/ /srv/",
                         "COPY ./Caddyfile /etc/caddy/Caddyfile"
                     ]
 }

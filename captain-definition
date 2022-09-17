@@ -2,6 +2,7 @@
   "schemaVersion": 2,
   "dockerfileLines": [
                         "FROM caddy:alpine",
-                        "COPY ./public/ /usr/share/caddy/"
+                        "COPY ./public/ /srv/",
+                        "RUN sed -i 's|root .*|root * /srv|' /etc/caddy/Caddyfile"
                     ]
 }
